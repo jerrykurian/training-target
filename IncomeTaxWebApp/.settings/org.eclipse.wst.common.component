@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="IncomeTaxWebApp">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="guava-16.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/learnym/training/Java/guava-16.0.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="reflections-0.9.10.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/learnym/training/Java/reflections-0.9.10.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="postgresql-42.1.3.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/learnym/training/Java/postgresql-42.1.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javassist-3.22.0-CR2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/learnym/training/Java/javassist-3.22.0-CR2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="IncomeTaxWebApp"/>
+        <property name="java-output-path" value="/IncomeTaxWebApp/build/classes"/>
+    </wb-module>
+</project-modules>
