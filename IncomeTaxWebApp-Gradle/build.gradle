@@ -11,7 +11,7 @@ apply plugin: 'java-library'
 // Newly added plugins
 apply plugin: 'java'
 apply plugin: 'war'
-apply plugin: 'jetty'
+apply from: 'gretty.plugin'
 
 // In this section you declare where to find the dependencies of your project
 repositories {
@@ -34,6 +34,7 @@ dependencies {
 	compile group: 'org.springframework', name: 'spring-tx', version: '4.1.6.RELEASE'
     
 }
+
 
 // Embeded Jetty for testing
 jettyRun{
