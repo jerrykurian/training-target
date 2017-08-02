@@ -31,21 +31,17 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     compile 'org.springframework:spring-webmvc:4.1.6.RELEASE'
     // https://mvnrepository.com/artifact/org.springframework/spring-tx
-	compile group: 'org.springframework', name: 'spring-tx', version: '4.1.6.RELEASE'
+    compile group: 'org.springframework', name: 'spring-tx', version: '4.1.6.RELEASE'
     
 }
 
 
 // Embeded Jetty for testing
-jettyRun{
-	contextPath = "itrweb"
-	httpPort = 8080
+gretty{
+    contextPath = "itrweb"
+    httpPort = 8080
 }
 
-jettyRunWar{
-	contextPath = "itrweb"
-	httpPort = 8080
-}
 
 
 
